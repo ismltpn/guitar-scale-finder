@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "guitar-scale-finder"
+version = "0.1.0"
+description = ""
+authors = ["Ismail Tapan <ismltpn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "guitar_scale_finder"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
